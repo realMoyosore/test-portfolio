@@ -23,3 +23,9 @@ document.querySelector('.contact-form').addEventListener('submit', e => {
   alert('Thank you for your message! I will get back to you soon.');
   e.target.reset();
 });
+
+// Highlight active section in nav on scroll
+const sections = document.querySelectorAll('section');
+window.addEventListener('scroll', () => {
+  let current = '';
+}
