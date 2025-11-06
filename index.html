@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moyo — Graphic Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    
+  <header>
+    <nav class="navbar">
+      <div class="logo">MoyoDesigns</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Moyo</span></h1>
+      <p>A Graphic Designer & Visual Storyteller</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <img src="https://via.placeholder.com/300x300" alt="Designer portrait" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate graphic designer with a flair for creating unique and impactful visual experiences.
+          I specialize in branding, digital design, and motion graphics, helping brands communicate effectively.
+        </p>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>My Works</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x300" alt="Project 1" />
+        <div class="overlay"><h3>Brand Identity</h3></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x300" alt="Project 2" />
+        <div class="overlay"><h3>Poster Design</h3></div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://via.placeholder.com/400x300" alt="Project 3" />
+        <div class="overlay"><h3>Social Media Art</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 MoyoDesigns | Made with ❤️</p>
+  </footer>
 </body>
 </html>
