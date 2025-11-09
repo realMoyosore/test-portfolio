@@ -33,9 +33,7 @@ window.addEventListener('scroll', () => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
 
-    if (scrollY >= sectionTop - sectionHeight / 3) {
-      current = section.getAttribute('id');
-    }
+
   });
 
   navLinks.querySelectorAll('a').forEach(link => {
