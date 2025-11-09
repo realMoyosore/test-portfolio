@@ -52,3 +52,16 @@ const textArray = ["Web Developer", "Designer", "Freelancer"];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 2000;
+let textArrayIndex = 0;
+let charIndex = 0; 
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } else {
+    cursorSpan.classList.remove("typing");
+    setTimeout(erase, newTextDelay);
+  }
+}
