@@ -39,9 +39,9 @@ window.addEventListener('scroll', () => {
   });
 
   navLinks.querySelectorAll('a').forEach(link => {
-  //   link.classList.remove('active');
+    link.classList.remove('active');
     if (link.getAttribute('href') === `#${current}`) {
-  //     link.classList.add('active');
+      link.classList.add('active');
     }
   });
 });
