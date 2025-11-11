@@ -221,7 +221,7 @@ footer {
   }
 }
 
-@media screen {
+@media screen and (min-width: 1200px) {
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -238,4 +238,5 @@ footer {
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+  
 }
