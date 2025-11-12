@@ -231,6 +231,7 @@ footer {
   .btn {
     padding: 0.6rem 1.2rem;
   }
+}
 
 /* Custom Scrollbar */
 @media screen and (max-width: 1199px) {
