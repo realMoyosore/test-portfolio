@@ -232,7 +232,28 @@ footer {
     padding: 0.6rem 1.2rem;
   }
 
-  
+/* Custom Scrollbar */
+@media screen and (max-width: 1199px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+  }
 
 }
 
