@@ -195,6 +195,10 @@ body {
   transition: background 0.3s;
 }
 
+.contact-form button:hover {
+  background: #e63946;
+}
+
 footer {
   background: #222;
   color: #fff;
