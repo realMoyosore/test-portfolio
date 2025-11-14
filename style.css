@@ -199,6 +199,8 @@ body {
   background: #e63946;
 }
 
+/* FOOTER */
+
 footer {
   background: #222;
   color: #fff;
@@ -272,6 +274,7 @@ footer {
 
 }
 
+/* Custom Scrollbar for larger screens */
 @media screen and (min-width: 1200px) {
   ::-webkit-scrollbar {
     width: 10px;
