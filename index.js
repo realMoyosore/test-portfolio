@@ -54,6 +54,7 @@ const erasingDelay = 50;
 const newTextDelay = 2000;
 let textArrayIndex = 0;
 let charIndex = 0; 
+
 function type() {
   if (charIndex < textArray[textArrayIndex].length) {
     if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
@@ -65,6 +66,7 @@ function type() {
     setTimeout(erase, newTextDelay);
   }
 }
+
 function erase() {
   if (charIndex > 0) {
     if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
@@ -78,7 +80,19 @@ function erase() {
     setTimeout(type, typingDelay + 1100);
   }
 }
+
 document.addEventListener("DOMContentLoaded", function () {
   if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollElements = document.querySelectorAll(".scroll-element");
+});
+
+function elementInView(el, offset = 0) {
+  const elementTop = el.getBoundingClientRect().top;
+  return (
+    elementTop <=
+    (window.innerHeight || document.documentElement.clientHeight) - offset
+  );
+}
