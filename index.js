@@ -96,3 +96,10 @@ function elementInView(el, offset = 0) {
     (window.innerHeight || document.documentElement.clientHeight) - offset
   );
 }
+
+function elementOutofView(el) {
+  const elementTop = el.getBoundingClientRect().top;
+  return (
+    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+  );
+}
