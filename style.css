@@ -249,23 +249,6 @@ footer {
   }
 }
 
-/* Custom Scrollbar */
-@media screen and (max-width: 1199px) {
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-  }
-
-}
-
 /* Custom Scrollbar for larger screens */
 @media screen and (min-width: 1200px) {
   ::-webkit-scrollbar {
