@@ -289,4 +289,11 @@ footer {
     border-radius: 5px;
   }
 
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+  }  
 }
