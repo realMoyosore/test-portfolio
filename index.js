@@ -111,3 +111,13 @@ function displayScrollElement(element) {
 function hideScrollElement(element) {
   element.classList.remove("scrolled");
 }
+
+function handleScrollAnimation() {
+  scrollElements.forEach((el) => {
+    if (elementInView(el, 100)) {
+      displayScrollElement(el);
+    } else if (elementOutofView(el)) {
+      hideScrollElement(el);
+    }
+  })
+}
