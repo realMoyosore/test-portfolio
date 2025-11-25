@@ -107,3 +107,7 @@ function elementOutofView(el) {
 function displayScrollElement(element) {
   element.classList.add("scrolled");
 }
+
+function hideScrollElement(element) {
+  element.classList.remove("scrolled");
+}
