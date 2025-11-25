@@ -103,3 +103,7 @@ function elementOutofView(el) {
     elementTop > (window.innerHeight || document.documentElement.clientHeight)
   );
 }
+
+function displayScrollElement(element) {
+  element.classList.add("scrolled");
+}
