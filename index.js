@@ -122,3 +122,8 @@ function handleScrollAnimation() {
   })
 }
 
+window.addEventListener("scroll", () => {
+  handleScrollAnimation();
+});
+
+handleScrollAnimation();
