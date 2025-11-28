@@ -141,4 +141,11 @@ images.forEach(image => {
     lightbox.appendChild(img);
   });
 });
+lightbox.addEventListener('click', e => {
+  if (e.target.id === 'lightbox') {
+    lightbox.classList.remove('active');
+    lightbox.innerHTML = '';
+  }
+});
+
 
