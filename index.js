@@ -127,3 +127,9 @@ window.addEventListener("scroll", () => {
 });
 
 handleScrollAnimation();
+
+// Add a simple lightbox effect for images
+const images = document.querySelectorAll('.lightbox-image');
+const lightbox = document.createElement('div');
+lightbox.id = 'lightbox';
+document.body.appendChild(lightbox);
