@@ -213,15 +213,7 @@ body {
   color: #bb86fc;
 }
 
-.dark-mode .btn {
-  background: #e0e0e0;
-  color: #121212;
-}
 
-.dark-mode .btn:hover {
-  background: #bb86fc;
-  color: #121212;
-}
 
 /* FOOTER */
 footer {
