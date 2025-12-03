@@ -205,16 +205,6 @@ body {
 }
 
 
-.dark-mode .nav-links a {
-  color: #e0e0e0;
-}
-
-.dark-mode .nav-links a:hover {
-  color: #bb86fc;
-}
-
-
-
 /* FOOTER */
 footer {
   background: #222;
