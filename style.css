@@ -213,6 +213,14 @@ body {
   color: #e0e0e0;
 }
 
+.dark-mode .nav-links a:hover {
+  color: #ff6f61;
+}
+
+.dark-mode .hero {
+  background: linear-gradient(135deg, #ff6f61, #ffa07a);
+}
+
 
 /* FOOTER */
 footer {
