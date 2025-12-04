@@ -231,6 +231,14 @@ body {
   color: #fff;
 }
 
+.dark-mode .about {
+  background: #1e1e1e;
+}
+
+.dark-mode .portfolio {
+  background: #1e1e1e;
+}
+
 /* FOOTER */
 footer {
   background: #222;
