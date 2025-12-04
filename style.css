@@ -221,6 +221,15 @@ body {
   background: linear-gradient(135deg, #ff6f61, #ffa07a);
 }
 
+.dark-mode .btn {
+  background: #e0e0e0;
+  color: #121212;
+}
+
+.dark-mode .btn:hover {
+  background: #ff6f61;
+  color: #fff;
+}
 
 /* FOOTER */
 footer {
