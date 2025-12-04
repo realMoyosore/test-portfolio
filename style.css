@@ -204,6 +204,15 @@ body {
   color: #e0e0e0;
 }
 
+.dark-mode .navbar {
+  background: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .nav-links a {
+  color: #e0e0e0;
+}
+
 
 /* FOOTER */
 footer {
