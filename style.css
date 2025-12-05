@@ -110,7 +110,9 @@ body {
   border-radius: 20px;
 }
 
-
+.about-text {
+  flex: 1;
+}
 
 /* PORTFOLIO */
 .portfolio {
