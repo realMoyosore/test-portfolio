@@ -177,13 +177,6 @@ body {
   gap: 1rem;
 }
 
-.contact-form input,
-.contact-form textarea {
-  padding: 0.8rem;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  font-family: inherit;
-}
 
 .contact-form button {
   padding: 0.8rem;
