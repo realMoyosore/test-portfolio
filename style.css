@@ -185,15 +185,6 @@ body {
   font-family: inherit;
 }
 
-.contact-form button {
-  padding: 0.8rem;
-  border: none;
-  background: #222;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
 
 .contact-form button:hover {
   background: #e63946;
