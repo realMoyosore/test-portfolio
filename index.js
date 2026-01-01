@@ -49,11 +49,7 @@ window.addEventListener('scroll', () => {
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 const textArray = ["Web Developer", "Designer", "Freelancer"];
-const typingDelay = 100;
-const erasingDelay = 50;
-const newTextDelay = 2000;
-let textArrayIndex = 0;
-let charIndex = 0; 
+
 
 function type() {
   if (charIndex < textArray[textArrayIndex].length) {
