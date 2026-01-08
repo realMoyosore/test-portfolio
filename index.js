@@ -164,9 +164,7 @@ const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll
     }
   });
 },
-appearOptions);
-faders.forEach(fader => {
-  appearOnScroll.observe(fader);
+
 });             
 
 // Back to top button functionality
